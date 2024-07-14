@@ -2,7 +2,8 @@
 
 Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.
 
-⚙️ Tech Stack
+## Tech Stack
+
 Next.js
 TypeScript
 Clerk
@@ -10,7 +11,8 @@ getstream
 shadcn
 Tailwind CSS
 
-🔋 Features
+## Features
+
 👉 Authentication: Implements authentication and authorization features using Clerk, allowing users to securely log in via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions within the platform.
 
 👉 New Meeting: Quickly start a new meeting, configuring camera and microphone settings before joining.
@@ -35,4 +37,31 @@ Tailwind CSS
 
 and many more, including code architecture and reusability.
 
+
+## Installation
+
+Clone the repository
+
+```bash
+  git clone https://github.com/your-username_/Project-Name
+```
+
+Install NPM packages
+
+```bash
+  npm install
+```
+
+Set Up Environment Variables
+
+Create a new file named .env in the root of your project and add the following content:
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+NEXT_PUBLIC_STREAM_API_KEY=
+STREAM_SECRET_KEY=
 
