@@ -1,15 +1,22 @@
+# Stream Meet
+
+## Link
+[stream-meet-jnf4kdxff-sumeeth24s-projects.vercel.app](https://stream-meet-jnf4kdxff-sumeeth24s-projects.vercel.app/sign-in)
+
+## Screenshots
+
 ## Introduction
 
 Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.
 
 ## Tech Stack
 
-Next.js
-TypeScript
-Clerk
-getstream
-shadcn
-Tailwind CSS
+- Next.js
+- TypeScript
+- Clerk
+- Stream SDK
+- shadcn
+- Tailwind CSS
 
 ## Features
 
@@ -43,7 +50,7 @@ and many more, including code architecture and reusability.
 Clone the repository
 
 ```bash
-  git clone https://github.com/your-username_/Project-Name
+  [git clone https://github.com/your-username_/Project-Name](https://github.com/Sumeeth-24/Stream-Meet/tree/main)
 ```
 
 Install NPM packages
@@ -56,6 +63,7 @@ Set Up Environment Variables
 
 Create a new file named .env in the root of your project and add the following content:
 
+```bash
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 
@@ -64,4 +72,5 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
 NEXT_PUBLIC_STREAM_API_KEY=
 STREAM_SECRET_KEY=
+```
 
